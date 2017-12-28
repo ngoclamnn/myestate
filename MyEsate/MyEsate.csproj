@@ -309,6 +309,7 @@
     <Content Include="Views\Project\Index.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Transaction\Index.cshtml" />
+    <Content Include="Views\Shared\_Searchbox.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
