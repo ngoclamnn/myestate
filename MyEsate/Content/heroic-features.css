@@ -41,10 +41,14 @@ footer {
     background-color: #1867aa !important;
 }
 
+.bg-green {
+    background-color: green !important;
+}
+
 .bd-example {
     position: relative;
     padding: 1rem;
-    border: solid #f7f7f9;
+    border: solid 1px #1867aa;
     border-top: none
 }
 
@@ -53,8 +57,26 @@ footer {
     margin-bottom: 0;
     font-size: 1rem;
     color: inherit;
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #ebebeb;
-    border-top-left-radius: calc(.3rem - 1px);
-    border-top-right-radius: calc(.3rem - 1px);
+    color: white;
+    background-color: #1867aa;
+}
+
+.no-borders a {
+    border-radius: 0 !important
+}
+
+.transaction-item-block {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin: .25rem;
+    background-color: red;
+    color:white;
+    text-align: center;
+    vertical-align:middle;
+    cursor:pointer
+}
+
+.jumbotron{
+    border-radius:unset
 }

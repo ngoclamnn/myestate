@@ -13,5 +13,14 @@ namespace MyEsate.Controllers
         {
             return View();
         }
+
+        public ActionResult Detail(int id = 0)
+        {
+            return View();
+        }
+        public ActionResult Overview(int id = 0)
+        {
+            return View();
+        }
     }
 }

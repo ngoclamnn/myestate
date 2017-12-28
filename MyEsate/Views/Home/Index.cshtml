@@ -2,15 +2,21 @@
     ViewBag.Title = "Home page";
 }
 @section BigBanner {
-
+<img style="width:100%; height:auto" src="https://file4.batdongsan.com.vn/2017/09/30/vou5EgPQ/20170930084020-fd03.jpg" />
 }
-<div style="padding-top:10px">
+<div style="background-color:#E9ECFF">
+    <br />
+    @*<div class="row">
+        <div class="col-12">
+            <h3>Tra cứu, quản lý thông tin dự án bất động sản và nhà đất tại Việt Nam.</h3>
+        </div>
+    </div>*@
     <div class="row">
 
-        <div class="col-lg-4">
+        <div class="col-lg-4" style="padding-right:0px">
             @Html.Partial("_Searchbox")
         </div>
-        <div class="col-lg-8" style="margin-left:-15px">
+        <div class="col-lg-8">
             <div class="bd-example-header">Dự án mới nhất</div>
             <div class="bd-example">
 
@@ -42,7 +48,7 @@
     </div>
     <br />
     <div class="row">
-        <div class="col-8">
+        <div class="col-8" style="padding-right:0px">
             <div class="bd-example-header">Tin nổi bật</div>
             <div class="bd-example">
 
@@ -71,7 +77,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-4" style="margin-left:-15px">
+        <div class="col-4">
             <div class="bd-example-header">Dự án đang được quan tâm</div>
             <div class="bd-example">
 
@@ -98,9 +104,9 @@
             </div>
         </div>
     </div>
-
+    <br />
     <div class="row">
-        <div class="col-8">
+        <div class="col-8" style="padding-right:0px">
             <div class="bd-example-header">Tin đăng gần đây</div>
             <div class="bd-example">
 
@@ -157,7 +163,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-4" style="margin-left:-15px">
+        <div class="col-4">
             <div class="row">
                 <div class="col-12">
                     <div class="bd-example-header">Tin được quan tâm</div>
@@ -216,8 +222,10 @@
                 </div>
             </div>
         </div>
+
     </div>
+    <br />
+    <br />
 </div>
-<br />
-<br />
+
 
